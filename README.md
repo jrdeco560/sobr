@@ -4,5 +4,5 @@ Created by Jason Chang, Tanner Hoke, Parsa Dastjerdi, and Harish Kumar </br>
 This repository is an updated mirror of the [original repository](https://github.com/jasonchang0/SoBr).
 <p align="center"><img src="https://github.com/jasonchang0/SoBr/blob/master/sobr-logo.png" height="200" width="200"></p>
 
-Built with Keras • TensorFlow •	CoreML • Microsoft Custom Vision • GCP </br>
+Built for iOS and Android</br>
 Watch our [demo](https://www.youtube.com/watch?v=ReqAQ463QmY)
