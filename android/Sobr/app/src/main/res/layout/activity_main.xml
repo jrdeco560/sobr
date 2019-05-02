@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:openDrawer="start">
-
-    <include
-        layout="@layout/app_bar_main"
+    tools:context=".MainActivity">
+<!--
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:id="@+id/title"
+        />
+-->
 
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="510dp"
+        android:id="@+id/camera_preview"
+        />
 
-</androidx.drawerlayout.widget.DrawerLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/capture_image"
+        android:text="Unlock Car"
+        android:layout_below="@id/camera_preview"
+        />
+
+
+</RelativeLayout>

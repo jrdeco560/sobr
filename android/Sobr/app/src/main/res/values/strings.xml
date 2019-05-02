@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Sobr</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+
+    <!-- need to replace box below with client id -->
+    <string name="smartcar_auth_scheme">sc[yourClientId]</string>
+    <string name="smartcar_auth_host">exchange</string>
+    <string name="client_id">9b6bf72e-1103-419f-a807-0c1ce5472dfe</string>
+    <string name="app_server"></string>
 </resources>

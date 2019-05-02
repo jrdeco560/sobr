@@ -5,6 +5,10 @@ import random
 
 # need to update for different filetypes
 def rename_files(directory):
+    '''
+    Renames all files in order to make it easier to parse
+    '''
+    
     try:
         chdir('../data/' + directory)
     except FileExistsError as e:

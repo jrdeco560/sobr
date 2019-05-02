@@ -4,7 +4,8 @@ import glob
 import image_scraper
 from google_images_download import google_images_download  # importing the library
 
-os.chdir('../data/wine_project_files')
+# os.chdir('../data/wine_project_files')
+os.chdir('../data/drunkImages')
 
 imgs_url = []
 

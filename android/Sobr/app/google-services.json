@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "273076326297",
+    "firebase_url": "https://sobr-43fa3.firebaseio.com",
+    "project_id": "sobr-43fa3",
+    "storage_bucket": "sobr-43fa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273076326297:android:97c779b1f34c98cd",
+        "android_client_info": {
+          "package_name": "com.example.sobr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273076326297-ikuhgn3lfpsdj4shgf87r6l3cjppfcj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATnh-tOK1-tZH_691Ye4t9dmzULmuMEKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273076326297-ikuhgn3lfpsdj4shgf87r6l3cjppfcj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
